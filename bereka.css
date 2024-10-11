@@ -36,7 +36,7 @@ a {
 }
 
 .navbar-toggler {
-    margin-left: auto;
+    margin-left: 350px;
     margin-top: -35px;
 }
 .hbtn a{
@@ -48,10 +48,10 @@ a {
     font-size: 18px;
     font-weight: bold;
     margin-left: 10px;
-    padding: 10px 35px;
+    padding: 10px 15px;
     background-color: #FEA116;
     color: #fff;
-    border-radius: 5px;
+    border: #16203A;
     transition: background-color 0.3s ease;
 }
 
@@ -93,13 +93,16 @@ a {
 
 
 .navbar-toggler {
-    border-color: #535151 !important; 
-}on */
-
-.navbar-toggler .fa-bars {
-    color: rgb(141, 137, 137) !important; 
+    border-color: #4e4848 !important; 
 }
 
+.navbar-toggler .fa-bars {
+    color: rgb(106, 105, 105) !important; 
+}
+
+.fa-bars {
+    color: rgb(106, 105, 105) !important; 
+}
 
 .hero-section {
     display: flex;
@@ -124,7 +127,7 @@ a {
 }
 
 .hero-text {
-    font-size: 18px;
+    font-size: 16px;
     color: #ddd;
     margin-bottom: 30px;
 }
@@ -179,8 +182,8 @@ a {
     }
 
     .hero-text {
-        max-width: 520px;
-        font-size: 15px;
+        max-width: 400px;
+        font-size: 16px;
     }
 
     .hero-content {
@@ -194,23 +197,23 @@ a {
     }
 }
 
-.custom-brand {
-    color: orange;
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-decoration: none;
+    .custom-brand {
+       color: orange;
+       font-size: 2.5rem;
+       font-weight: bold;
+       text-decoration: none;
 }
 
 
-.custom-home {
-    color: orange !important;
+   .custom-home {
+        color: orange !important;
 }
 
-.navbar-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+   .navbar-nav {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: flex-start;
 }
 
 @media (max-width: 991px) {
@@ -226,10 +229,10 @@ a {
 
     .custom-brand {
         color: orange;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-weight: bold;
         text-decoration: none;
-        padding-right: 280px;
+        padding-right: 260px;
         padding-top: 10px;
     }
 
@@ -360,7 +363,9 @@ a.hero-btn.slide-in-left {
 
 @media (max-width: 768px) {
     #two .hover-card {
-        padding: 20px;
+        max-width: 600px;
+        width: 115%;
+        padding: 30px;
         float: center; / 
     }
 
@@ -393,8 +398,24 @@ a.hero-btn.slide-in-left {
     #two p {
         font-size: 20px;
     }
-
-   
+}
+@media (max-width: 768px) {
+    #two .cards {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 768px) {
+    #three .img {
+        flex-direction: column;
+    }
+    
+    .image-pair {
+        flex-direction: column;
+    }
+    
+    .about-container {
+        text-align: center;
+    }
 }
 
 @keyframes slideInUp {
@@ -552,10 +573,6 @@ a.hero-btn.slide-in-left {
 .read-more-btn:hover {
     background-color: #FEA116;
 }
-
-
-
-
 .stat-counter {
     font-size: 48px;
     color: #cd7e07;
@@ -805,8 +822,6 @@ a.hero-btn.slide-in-left {
 .stat-counter {
     font-size: 3rem;
 }
-
-
 
 .nav-item h3{
  font-weight: bold;
@@ -1301,26 +1316,6 @@ a.hero-btn.slide-in-left {
 .f-menu a {
     position: relative;
     padding: 0 10px;
-}
-
-@media (max-width: 768px) {
-    #three .img {
-        flex-direction: column;
-    }
-    
-    .image-pair {
-        flex-direction: column;
-    }
-    
-    .about-container {
-        text-align: center;
-    }
-}
-
-@media (max-width: 768px) {
-    #two .cards {
-        grid-template-columns: 1fr;
-    }
 }
 
 
